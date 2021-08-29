@@ -1,0 +1,16 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name" : "Simplest Notepad",
+    "version" : "1.0",
+    "description":"this is the simplest notepad. It doesnt get simpler than this :)",
+    "manifest_version":2,
+    
+    "browser_action":{
+        "default_popup":"notepad.html"
+    },
+    "icons": {
+        
+        "128": "notepad.png",
+        "48":"48-logo.png"
+    }
+}
